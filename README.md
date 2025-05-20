@@ -1,4 +1,4 @@
-# Soluções LeetCode 🧠💻
+# Soluções LeetCode 💻
 
 Este repositório contém minhas soluções para problemas da plataforma [LeetCode](https://leetcode.com/), com comentários explicativos e observações pessoais sobre cada exercício. O objetivo é reforçar meu aprendizado e compartilhar conhecimento com outros devs que também estão praticando algoritmos e estruturas de dados.
 
@@ -10,17 +10,17 @@ As soluções estão organizadas por nível de dificuldade:
 
 ```
 easy/
-├── 0001-problem-x/
+├── 0001 - problem-x/
 │   ├── solution.py
 │   └── description.md
 └── ...
 medium/
-├── 0020-problem-y/
+├── 0020 - problem-y/
 │   ├── solution.py
 │   └── description.md
 └── ...
 hard/
-├── 0300-problem-z/
+├── 0300 - problem-z/
 │   ├── solution.py
 │   └── description.md
 └── ...

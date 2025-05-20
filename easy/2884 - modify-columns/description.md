@@ -19,7 +19,7 @@ The result format is in the following example.
 
 # Comentários
 
-Outro problema bem simples, utilizando pandas. Apenas pegamos os salários dos funcionarios, multiplicamos por 2 e retornamos os funcionarios atualizados.
+Outro problema bem simples, utilizando pandas. Apenas pegamos os salários dos funcionários, multiplicamos por 2 e retornamos os funcionários atualizados.
 
 ```python
 import pandas as pd

@@ -13,7 +13,7 @@ Output: [3]
 
 # Comentários
 
-Para começar, criamos uma lista para armazenar o resultado, um dicionario para contar as ocorrencias dos numeros e um variavel para armazenar o tamanho da lista. Em seguida percorremos a lista com os numeros e verificamos se o numero ainda nao foi contabilizado. Se nao, atribuimos o numero como chave com o valor 1. Caso contrario, incrementamos 1 na contagem. Para a validação final, armazenamos o calculo de `⌊ n/3 ⌋` em uma variavel (`k`) e percorremos o dicionario verificando se a frequencia foi maior que `k`. Se sim, adicionamos o numero a lista de resultados. Por fim, retornamos a lista com todos os resultados.
+Para começar, criamos uma lista para armazenar o resultado, um dicionário para contar as ocorrências dos números e um variável para armazenar o tamanho da lista. Em seguida percorremos a lista com os números e verificamos se o numero ainda não foi contabilizado. Se não, atribuímos o numero como chave com o valor 1. Caso contrario, incrementamos 1 na contagem. Para a validação final, armazenamos o calculo de `⌊ n/3 ⌋` em uma variável (`k`) e percorremos o dicionário verificando se a frequência foi maior que `k`. Se sim, adicionamos o numero a lista de resultados. Por fim, retornamos a lista com todos os resultados.
 
 ```python
 class Solution:

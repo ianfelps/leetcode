@@ -13,5 +13,5 @@ class Solution:
         k = n // 3 # calculo de ⌊ n/3 ⌋
         for key, val in hashmap.items(): # percorrer elementos no hashmap (numero, frequencia)
             if val > k: # se a frequencia foi maior que k (⌊ n/3 ⌋)
-                res.append(key) # adicione a lista de resultados
+                res.append(key) # adicionar na lista de resultados
         return res # retorna a lista com os resultados

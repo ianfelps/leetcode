@@ -14,6 +14,8 @@ Output: [1,2,3,5]
 
 Gostei muito da implementação. Criamos um nó auxiliar para facilitar o tratamento de casos especiais (como a remoção do primeiro nó). Em seguida, dois ponteiros (`ahead` e `behind`) são inicializados no nó auxiliar, e o ponteiro `ahead` é movido `n + 1` posições à frente. Isso cria uma distância de `n` nós entre os dois ponteiros. Em seguida, ambos os ponteiros são movidos juntos até que `ahead` atinja o final da lista. Nesse momento, `behind` estará imediatamente antes do nó a ser removido, que é então excluído ajustar o ponteiro para pular esse nó. Por fim, retornamos o início atualizado da lista.
 
+![Desenho da solução](draw.png)
+
 ```python
 # Definition for singly-linked list.
 # class ListNode:

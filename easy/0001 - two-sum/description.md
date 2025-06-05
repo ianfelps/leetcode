@@ -21,6 +21,8 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 Para resolver o problema percorrendo a lista apenas uma vez, utilizamos hashmap. Primeiro criamos um dicionário (hashmap) e percorremos a lista calculando a diferença entre o valor alvo e o valor da lista. Se a diferença já estiver no dicionário, retornamos os índices (do valor alvo e do atual valor da lista). Caso contrario, adicionamos o valor da lista ao dicionário e continuamos percorrendo a lista.
 
+![Desenho da solução](./draw.png)
+
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:

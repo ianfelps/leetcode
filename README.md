@@ -48,7 +48,7 @@ Cada problema contém:
 
 - [0019. Remove Nth Node From End of List](./medium/0019%20-%20remove-nth-node-from-end-of-list/description.md)
 - [0001. Two Sum](./easy/0001%20-%20two-sum/description.md)
-
+- [1367. Linked List in Binary Tree](./medium/1367%20-%20linked-list-in-binary-tree/description.md)
 ---
 
 ## 🧠 Progresso
